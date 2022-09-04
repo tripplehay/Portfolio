@@ -244,7 +244,8 @@ img {
 .home__img {
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom:  0;
+  
   width: 260px;
 }
 
@@ -254,6 +255,17 @@ img {
 
 .home__blob-img {
   width: 400px;
+}
+
+.blog-html {
+  text-decoration: underline;
+  font-style: italic;
+  font-weight: bolder;
+  color: blue;
+}
+
+.blog-html:hover, :active {
+  color: #E365C1
 }
 
 /*BUTTONS*/
@@ -342,15 +354,15 @@ img {
 }
 
 .skills__css {
-  width: 85%;
+  width: 90%;
 }
 
 .skills__js {
-  width: 65%;
+  width: 95%;
 }
 
-.skills__ux {
-  width: 85%;
+.skills__react {
+  width: 65%;
 }
 
 .skills__img {
